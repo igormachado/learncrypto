@@ -32,7 +32,7 @@ function imgCreate() {
   let img = document.createElement("img");
 
   img.className = "card-img-top";
-  img.setAttribute("src", "../../images/crypto-02.webp");
+  img.setAttribute("src", "images/crypto-02.webp");
 
   let divIdCard = document.getElementById("card");
   divIdCard.appendChild(img);
