@@ -472,7 +472,7 @@ function signInLogin() {
 
   let button = document.getElementById("footer-button-01");
 
-  button.addEventListener("click", (event) => {
+  button.addEventListener("mouseover", (event) => {
     if (!email.value.match(validRegex) || password.value.length < 6) {
       alert("Email or Password is incorrect");
       event.preventDefault("");
