@@ -1,0 +1,74 @@
+
+@media screen and (max-width: 600px) {
+    #container {
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+      margin-left: 5px;
+      margin-right: 20px;
+    }
+  }
+
+.col {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+     max-width: 600px;
+     margin-top: 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+body {
+    background-color: darkblue;
+}
+
+#buttons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    
+}
+
+#buttons a {
+    margin-top: 10px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: start;
+}
+
+#modal-body-01 label {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#modal-body-01 input {
+    margin-bottom: 10px;
+}
+
+#footer-button-01 {
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+#modal-body-02 label {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#modal-body-02 input {
+    margin-bottom: 10px;
+}
+
+#footer-button-02 {
+    margin-left: 15px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,26 @@
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #253137;
+    color:antiquewhite;
+    padding: 10px;
+
+}
+
+.row {
+    margin: 10px;
+}
+.col {
+   margin-bottom: 10px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.card {
+    width: 18rem;
+}
+
+.progress div {
+    width: 100%;
+}
