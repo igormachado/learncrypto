@@ -472,9 +472,10 @@ function signInLogin() {
 
   let button = document.getElementById("footer-button-01");
 
-  button.addEventListener("mouseover", () => {
+  button.addEventListener("click", (event) => {
     if (!email.value.match(validRegex) || password.value.length < 6) {
       alert("Email or Password is incorrect");
+      event.preventDefault("");
     }
   });
 }
@@ -504,17 +505,17 @@ function signUpLogin() {
   //   }
   // });
 
-  button.addEventListener("mouseover", () => {
+  button.addEventListener("mouseover", (event) => {
     if (name.value.length == "") {
-      confirm("Name is required.");
+      confirm("Name is required.")
     } else if (!email.value.match(validRegex)) {
       alert("Email is required.");
     } else if (password.value.length < 6) {
       confirm("Password must be than 6 characters!");
     } else if (confirmPassword.value != password.value) {
-      confirm("Password does not match")
+      confirm("Password does not match");
     } else {
-      return 
+      // return event.preventDefault("");
     }
   });
 }
